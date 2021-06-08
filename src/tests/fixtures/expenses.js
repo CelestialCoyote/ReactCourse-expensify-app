@@ -1,4 +1,5 @@
 import moment from 'moment';
+import selectExpensesTotal from '../../selectors/expenses-total.js';
 
 
 export default [{
@@ -20,3 +21,6 @@ export default [{
     amount: 4500,
     createdAt: moment(0).add(4, 'days').valueOf()
 }];
+
+//const total = getExpensestotal(expenses);
+//console.log(total);
